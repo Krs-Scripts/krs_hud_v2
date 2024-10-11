@@ -21,7 +21,7 @@ AddEventHandler('esx_status:onTick', function(data)
     SendNUIMessage({
         message = 'update_hud',
         health = math.ceil(GetEntityHealth(cache.ped) - 100),
-        armor = math.ceil(GetPedArmour(cache.ped)),
+        armour = math.ceil(GetPedArmour(cache.ped)),
         thirst = thirst,
         hunger = hunger,
         stress = stress,
