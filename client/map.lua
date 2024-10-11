@@ -20,7 +20,7 @@ local function updateMap()
         Wait(100)
     end
 
-    lib.notify({title = 'Krs Factions', icon = 'fa-solid fa-id-badge', description = 'Map Loading...', type = 'inform'})
+    lib.notify({title = 'Krs Hud', icon = 'fa-solid fa-id-badge', description = 'Map Loading...', type = 'inform'})
 
     SetMinimapClipType(1)
 
@@ -34,7 +34,7 @@ local function updateMap()
     Wait(50)
     SetRadarBigmapEnabled(false, false)
 
-    lib.notify({title = 'Krs Factions', icon = 'fa-solid fa-id-badge', description = 'Map Has Loaded!', type = 'inform'})
+    lib.notify({title = 'Krs Hud', icon = 'fa-solid fa-id-badge', description = 'Map Has Loaded!', type = 'inform'})
 end
 
 AddEventHandler('esx:playerLoaded', function()
